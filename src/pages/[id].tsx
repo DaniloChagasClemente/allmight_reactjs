@@ -48,8 +48,9 @@ export default function Id() {
                 {treinos &&
                   treinos.map((item) => (
                     <tr key={item.id}>
-                      <td>{item.horario}</td>
-                      <td>{item.alimento}</td>
+                      <td>{item.finalidade}</td>
+                      <td>{item.exercicio}</td>
+                      <td>{item.repeticoes}</td>
                     </tr>
                   ))}
               </tbody>
