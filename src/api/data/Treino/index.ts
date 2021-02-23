@@ -3,7 +3,7 @@ import { ITreino } from "../../../interfaces/Treino.interface"
 
 class TreinoData {
   show(treinoId: string) {
-    return api.get<Treino[]>(`treinos/${dietaId}`);
+    return api.get<ITreino[]>(`treinos/${treinoId}`);
   }
 }
 
